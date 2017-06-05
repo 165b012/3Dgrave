@@ -14,5 +14,8 @@ public class Titlescript : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Space)) {
 			Application.LoadLevel (1);
 		} 
+		if (Input.GetKey (KeyCode.Escape)) {
+			Application.Quit();
+		}
 	}
 }
